@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SOHA GYM MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f2f2f2; color: #333;">
+
+    <!-- Navigation -->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="{{ url_for('Home') }}"><button style="padding: 10px 20px; margin: 5px;">Home</button></a>
+        <a href="{{ url_for('AboutUs') }}"><button style="padding: 10px 20px; margin: 5px;">About Us</button></a>
+        <a href="{{ url_for('Membership') }}"><button style="padding: 10px 20px; margin: 5px;">Membership</button></a>
+    </div>
+
+    <!-- About Section -->
+    <div style="text-align: center; margin-top: 40px;">
+        <h1 style="color: #e67e22;">SOHA GYM</h1>
+
+        <section id="about" style="max-width: 600px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <h2 style="color: #2c3e50;">ABOUT US</h2>
+            <p style="font-size: 18px;">
+                SOHA GYM is a modern fitness center equipped with state-of-the-art machines, certified personal trainers, and a wide variety of group classes. Whether you're a beginner or a pro, we are here to help you achieve your fitness goals in a supportive and energetic environment.
+            </p>
+            <p style="color: #777; margin-top: 30px;">&copy; 2025 SOHA GYM. All rights reserved.</p>
+        </section>
+    </div>
+
+</body>
+</html>

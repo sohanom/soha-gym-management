@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SOHA GYM MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; color: #333;">
+
+    <!-- Navigation Buttons -->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="{{ url_for('Home') }}"><button style="padding: 10px 20px; margin: 5px;">Home</button></a>
+        <a href="{{ url_for('AboutUs') }}"><button style="padding: 10px 20px; margin: 5px;">About Us</button></a>
+        <a href="{{ url_for('Membership') }}"><button style="padding: 10px 20px; margin: 5px;">Membership</button></a>
+        <img src="" alt="">
+    </div>
+
+    <!-- Header -->
+    <div style="text-align: center; margin-top: 40px;">
+        <h1 style="color: #d35400;">SOHA GYM</h1>
+        
+    </div>
+
+    <!-- Membership Plans Section -->
+    <section id="membership" style="max-width: 600px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h2 style="text-align: center; color: #2c3e50;">MEMBERSHIP PLANS</h2>
+        <ul style="list-style: none; padding-left: 0; font-size: 18px;">
+            <li style="margin-bottom: 15px;"><strong>BASIC:</strong> Access to gym equipment – <span style="color: #27ae60;">$30/month</span></li>
+            <li style="margin-bottom: 15px;"><strong>STANDARD:</strong> Gym + Classes – <span style="color: #2980b9;">$45/month</span></li>
+            <li style="margin-bottom: 15px;"><strong>PREMIUM:</strong> All access + Personal Trainer – <span style="color: #8e44ad;">$80/month</span></li>
+        </ul>
+        <p style="text-align: center; color: #777;">&copy; 2025 SOHA GYM. All rights reserved.</p>
+    </section>
+
+</body>
+</html>
